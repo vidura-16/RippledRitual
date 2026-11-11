@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --open /src/index.html",
-    "build": "vite build && node scripts/publish-pages.mjs",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "format": "oxfmt"
   },
